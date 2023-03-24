@@ -1,6 +1,6 @@
 import {createApi,fetchBaseQuery} from '@reduxjs/toolkit/query/react';
 
-const baseURl = 'http://localhost:7070';
+const baseURl = 'https://money-managing-backend.onrender.com';
 
 export const apiSlice = createApi({
     baseQuery:fetchBaseQuery({baseUrl:baseURl}),
